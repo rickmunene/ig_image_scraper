@@ -1,3 +1,10 @@
-# ig_image_scraper
+# Instagram API-free image scraper
 
-IG image scraper using bs4, selenium.
+  * Scrape images from any public instagram account via terminal and save to a given directory
+  * Version 1.0
+  
+  
+# TODO: 
+
+  * Get ig account analytics. (followers, likes, following etc..)
+  * Top posts, most likes.
