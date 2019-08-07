@@ -4,10 +4,11 @@
   * Version 1.0
 
 
-# Todo
+# To-do
 
   * Get ig account analytics. (followers, likes, following etc..)
   * Top posts, most likes.
+  * Change file names to something else, date posted? first 20 chars of description?
 
 
 ## Usage
