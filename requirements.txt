@@ -1,3 +1,7 @@
-requests
+os
+re
+time
 bs4
-webbrowser
+urllib
+selenium
+requests
