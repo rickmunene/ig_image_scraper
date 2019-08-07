@@ -51,6 +51,7 @@ def get_image_urls(username):
 
 
 def download_images():
+    start = time.time()
     username = input('Enter instagram username to scrape: ')
     links = get_image_urls(username)
     images = list(dict.fromkeys(links))
@@ -66,6 +67,10 @@ def download_images():
         image = data.find('meta', property='og:image')
         image_url = image['content']
         urllib.request.urlretrieve(image_url, fullfilename)
+    end = time.time()
+    time_taken = end - start
+    print(len(images), 'downloaded. It took ',
+          round(int(time_taken), 2), ' seconds to complete.')
 
 
 def main():
