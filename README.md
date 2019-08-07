@@ -4,7 +4,16 @@
   * Version 1.0
   
   
-# TODO: 
+# Todo..
 
   * Get ig account analytics. (followers, likes, following etc..)
   * Top posts, most likes.
+
+
+## Usage..
+  * In terminal, run 'pip install -r requirements.txt' in directory of requirements.txt
+  * Then run python3 main.py and follow user input to downloade images.
+  
+  
+  
+@author Jordon Dyer
